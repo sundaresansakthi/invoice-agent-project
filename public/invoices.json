@@ -106,8 +106,8 @@
   },
   {
     "invoice_id": "INV009",
-    "vendor": "SilverArc Consulting",
-    "vendor_email": "billing@silverarc.consult",
+    "vendor": "sundaresan",
+    "vendor_email": "Sundaresan.sakthivel@ennuviz.com",
     "amount": 4200,
     "paid_amount": 0,
     "due_date": "2024-10-01",
