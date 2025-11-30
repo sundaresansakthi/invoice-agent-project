@@ -1,0 +1,352 @@
+[
+  {
+    "payment_id": "PAY001",
+    "invoice_id": "INV001",
+    "vendor": "Alpha Supplies",
+    "vendor_email": "billing@alphasupplies.test",
+    "amount_paid": 1450.75,
+    "payment_date": "2025-03-12",
+    "currency": "USD",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY002",
+    "invoice_id": "INV003",
+    "vendor": "Nimbus Tech Services",
+    "vendor_email": "accounts@nimbustech.local",
+    "amount_paid": 2000,
+    "payment_date": "2025-02-10",
+    "currency": "EUR",
+    "payment_method": "ACH"
+  },
+  {
+    "payment_id": "PAY003",
+    "invoice_id": "INV005",
+    "vendor": "SkyBridge Hardware",
+    "vendor_email": "invoices@skybridgehardware.none",
+    "amount_paid": 5000,
+    "payment_date": "2025-05-13",
+    "currency": "USD",
+    "payment_method": "Credit Card"
+  },
+  {
+    "payment_id": "PAY004",
+    "invoice_id": "INV007",
+    "vendor": "Quantum Logistics",
+    "vendor_email": "payables@quantumlogi.co",
+    "amount_paid": 1300,
+    "payment_date": "2025-01-09",
+    "currency": "USD",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY005",
+    "invoice_id": "INV008",
+    "vendor": "NorthPeak Retail",
+    "vendor_email": "accounting@northpeak.retail",
+    "amount_paid": 1500,
+    "payment_date": "2024-11-14",
+    "currency": "USD",
+    "payment_method": "Cash"
+  },
+  {
+    "payment_id": "PAY006",
+    "invoice_id": "INV010",
+    "vendor": "VioletStone Designs",
+    "vendor_email": "hello@violetstone.design",
+    "amount_paid": 750,
+    "payment_date": "2025-06-09",
+    "currency": "USD",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY007",
+    "invoice_id": "INV012",
+    "vendor": "Cobalt Networks",
+    "vendor_email": "ap@cobaltnet.internal",
+    "amount_paid": 2800,
+    "payment_date": "2025-04-02",
+    "currency": "USD",
+    "payment_method": "ACH"
+  },
+  {
+    "payment_id": "PAY008",
+    "invoice_id": "INV013",
+    "vendor": "Evergreen Packaging",
+    "vendor_email": "accounts@evergreen.pkg",
+    "amount_paid": 1120,
+    "payment_date": "2025-01-02",
+    "currency": "USD",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "payment_id": "PAY009",
+    "invoice_id": "INV015",
+    "vendor": "CopperTrail Mobility",
+    "vendor_email": "billing@coppertrail.mob",
+    "amount_paid": 2000,
+    "payment_date": "2025-02-20",
+    "currency": "GBP",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY010",
+    "invoice_id": "INV016",
+    "vendor": "RedForest Catering",
+    "vendor_email": "ap@redforest.cater",
+    "amount_paid": 0,
+    "payment_date": null,
+    "currency": "USD",
+    "payment_method": null
+  },
+  {
+    "payment_id": "PAY011",
+    "invoice_id": "INV017",
+    "vendor": "DiamondWave IT",
+    "vendor_email": "accounts@diamondwave.it",
+    "amount_paid": 6000,
+    "payment_date": "2025-06-16",
+    "currency": "USD",
+    "payment_method": "ACH"
+  },
+  {
+    "payment_id": "PAY012",
+    "invoice_id": "INV018",
+    "vendor": "SolarEdge Components",
+    "vendor_email": "billing@solaredge.comp",
+    "amount_paid": 1490.25,
+    "payment_date": "2025-03-20",
+    "currency": "USD",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY013",
+    "invoice_id": "INV019",
+    "vendor": "NightShade Retailers",
+    "vendor_email": "finance@nightshade.store",
+    "amount_paid": 500,
+    "payment_date": "2024-12-05",
+    "currency": "USD",
+    "payment_method": "Cash"
+  },
+  {
+    "payment_id": "PAY014",
+    "invoice_id": "INV021",
+    "vendor": "UrbanCraft Construction",
+    "vendor_email": "ap@urbancraft.build",
+    "amount_paid": 7800,
+    "payment_date": "2025-05-03",
+    "currency": "USD",
+    "payment_method": "ACH"
+  },
+  {
+    "payment_id": "PAY015",
+    "invoice_id": "INV023",
+    "vendor": "NextPhase Digital",
+    "vendor_email": "accounts@nextphase.digital",
+    "amount_paid": 3000,
+    "payment_date": "2025-02-22",
+    "currency": "USD",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY016",
+    "invoice_id": "INV024",
+    "vendor": "AmberPeak Contractors",
+    "vendor_email": "billing@amberpeak.build",
+    "amount_paid": 1900,
+    "payment_date": "2025-04-11",
+    "currency": "USD",
+    "payment_method": "ACH"
+  },
+  {
+    "payment_id": "PAY017",
+    "invoice_id": "INV026",
+    "vendor": "FrostByte Systems",
+    "vendor_email": "finance@frostbyte.systems",
+    "amount_paid": 3020,
+    "payment_date": "2025-01-28",
+    "currency": "USD",
+    "payment_method": "Credit Card"
+  },
+  {
+    "payment_id": "PAY018",
+    "invoice_id": "INV028",
+    "vendor": "EchoWave Media",
+    "vendor_email": "hello@echowave.media",
+    "amount_paid": 1500,
+    "payment_date": "2025-03-15",
+    "currency": "USD",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY019",
+    "invoice_id": "INV029",
+    "vendor": "LimeStone Fabrics",
+    "vendor_email": "contact@limestone.fabric",
+    "amount_paid": 200,
+    "payment_date": "2024-12-27",
+    "currency": "USD",
+    "payment_method": "Cash"
+  },
+  {
+    "payment_id": "PAY020",
+    "invoice_id": "INV031",
+    "vendor": "CrystalHive Pharmaceuticals",
+    "vendor_email": "ap@crystalhive.pharma",
+    "amount_paid": 4950,
+    "payment_date": "2025-02-09",
+    "currency": "USD",
+    "payment_method": "ACH"
+  },
+  {
+    "payment_id": "PAY021",
+    "invoice_id": "INV032",
+    "vendor": "IronCrest Logistics",
+    "vendor_email": "billing@ironcrest.logi",
+    "amount_paid": 1500,
+    "payment_date": "2025-01-29",
+    "currency": "USD",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "payment_id": "PAY022",
+    "invoice_id": "INV034",
+    "vendor": "BrightRail Services",
+    "vendor_email": "service@brightrail.svc",
+    "amount_paid": 1800,
+    "payment_date": "2025-04-09",
+    "currency": "USD",
+    "payment_method": "ACH"
+  },
+  {
+    "payment_id": "PAY023",
+    "invoice_id": "INV036",
+    "vendor": "EmeraldPath Foods",
+    "vendor_email": "ap@emeraldpath.food",
+    "amount_paid": 720,
+    "payment_date": "2025-01-10",
+    "currency": "USD",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY024",
+    "invoice_id": "INV038",
+    "vendor": "ZenithCloud Data",
+    "vendor_email": "cloud@zenithcloud.data",
+    "amount_paid": 1800,
+    "payment_date": "2025-03-03",
+    "currency": "USD",
+    "payment_method": "ACH"
+  },
+  {
+    "payment_id": "PAY025",
+    "invoice_id": "INV039",
+    "vendor": "GoldenPeak Retail",
+    "vendor_email": "support@goldenpeak.retail",
+    "amount_paid": 540,
+    "payment_date": "2025-03-02",
+    "currency": "USD",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY026",
+    "invoice_id": "INV041",
+    "vendor": "SilverPine Textiles",
+    "vendor_email": "contact@silverpine.txt",
+    "amount_paid": 680,
+    "payment_date": "2025-04-25",
+    "currency": "USD",
+    "payment_method": "Credit Card"
+  },
+  {
+    "payment_id": "PAY027",
+    "invoice_id": "INV043",
+    "vendor": "AquaLine Services",
+    "vendor_email": "billing@aqualine.water",
+    "amount_paid": 1500,
+    "payment_date": "2024-12-28",
+    "currency": "USD",
+    "payment_method": "Wire Transfer"
+  },
+  {
+    "payment_id": "PAY028",
+    "invoice_id": "INV044",
+    "vendor": "BlueMesa Furniture",
+    "vendor_email": "store@bluemesa.furn",
+    "amount_paid": 880,
+    "payment_date": "2025-05-04",
+    "currency": "USD",
+    "payment_method": "Bank Transfer"
+  },
+  {
+    "payment_id": "PAY029",
+    "invoice_id": "INV046",
+    "vendor": "TerraRoot Organics",
+    "vendor_email": "finance@terraroot.org",
+    "amount_paid": 640,
+    "payment_date": "2025-02-10",
+    "currency": "USD",
+    "payment_method": "ACH"
+  },
+  {
+    "payment_id": "PAY030",
+    "invoice_id": "INV028",
+    "vendor": "EchoWave Media",
+    "vendor_email": "hello@echowave.media",
+    "amount_paid": 0,
+    "payment_date": null,
+    "currency": "USD",
+    "payment_method": null
+  },
+  {
+    "payment_id": "PAY031",
+    "invoice_id": "INV018",
+    "vendor": "SolarEdge Components",
+    "vendor_email": "billing@solaredge.comp",
+    "amount_paid": 0,
+    "payment_date": null,
+    "currency": "USD",
+    "payment_method": null
+  },
+  {
+    "payment_id": "PAY032",
+    "invoice_id": "INV001",
+    "vendor": "Alpha Supplies",
+    "vendor_email": "billing@alphasupplies.test",
+    "amount_paid": 0,
+    "payment_date": null,
+    "currency": "USD",
+    "payment_method": null
+  },
+  {
+    "payment_id": "PAY033",
+    "invoice_id": "INV032",
+    "vendor": "IronCrest Logistics",
+    "vendor_email": "billing@ironcrest.logi",
+    "amount_paid": 0,
+    "payment_date": null,
+    "currency": "USD",
+    "payment_method": null
+  },
+  {
+    "payment_id": "PAY034",
+    "invoice_id": "INV050",
+    "vendor": "Unknown Vendor",
+    "vendor_email": "noemail@unknown.fake",
+    "amount_paid": 0,
+    "payment_date": null,
+    "currency": "USD",
+    "payment_method": null
+  },
+  {
+    "payment_id": "PAY035",
+    "invoice_id": "INV045",
+    "vendor": "IronCast Hardware",
+    "vendor_email": "ap@ironcast.hd",
+    "amount_paid": 0,
+    "payment_date": null,
+    "currency": "USD",
+    "payment_method": null
+  }
+]

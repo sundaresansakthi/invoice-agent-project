@@ -1,0 +1,48 @@
+openapi: 3.0.1
+info:
+  title: Invoice Reconciliation API
+  version: 1.0.0
+  description: Retrieve invoice list from Cloudflare Worker.
+
+servers:
+  - url: https://invoice_agent.sundaresan-sakthivel.workers.dev
+
+paths:
+  /invoices:
+    get:
+      summary: Get all invoices
+      operationId: getInvoices
+      description: Returns the list of invoices stored in the Cloudflare Worker.
+      responses:
+        '200':
+          description: Successfully retrieved invoices
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    Invoice_ID:
+                      type: string
+                      example: "INV001"
+                    Vendor:
+                      type: string
+                    Vendor_Email:
+                      type: string
+                    Amount:
+                      type: number
+                    Paid_Amount:
+                      type: number
+                    Due_Date:
+                      type: string
+                      example: "25-04-2025"
+                    Payment_Date:
+                      type: string
+                    PO_Number:
+                      type: string
+                    Currency:
+                      type: string
+                    Status:
+                      type: string
+                      example: "Overdue"

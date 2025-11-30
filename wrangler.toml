@@ -1,0 +1,11 @@
+name = "invoice_agent"
+main = "src/index.ts"
+compatibility_date = "2024-11-20"
+
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[vars]
+ENVIRONMENT = "production"

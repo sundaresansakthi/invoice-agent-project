@@ -1,0 +1,158 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  font-family: Inter, sans-serif;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid #e3e3e3;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.title {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.counts {
+  font-size: 14px;
+  display: flex;
+  gap: 12px;
+  color: #666;
+}
+
+/* Main content */
+.content {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 24px;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.08);
+}
+
+.section-title {
+  margin: 0 0 14px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Row layout */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.status {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Buttons */
+.upload-btn,
+.preview-btn,
+.close-btn {
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+/* Button colors */
+.upload-btn {
+  background: #1976d2;
+}
+
+.preview-btn {
+  background: #2e7d32;
+}
+
+.close-btn {
+  background: #d32f2f;
+}
+
+/* Button hover */
+.upload-btn:hover,
+.preview-btn:hover,
+.close-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+/* Button active */
+.upload-btn:active,
+.preview-btn:active,
+.close-btn:active {
+  transform: scale(0.97);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+table thead {
+  border-bottom: 2px solid #d0d8e0;
+}
+
+table th {
+  background: #e8eef5;
+  padding: 10px 8px;
+  text-align: left;
+  font-weight: 600;
+  color: #444;
+}
+
+table td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #ececec;
+  color: #444;
+}
+
+/* Subtle row highlight */
+table tbody tr:hover {
+  background: #f1f6fc;
+}
+
+/* Smooth fade-in for tables and cards */
+.fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invoice Agent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="title">
+      <span class="emoji">📊</span> Invoice Agent
+    </div>
+  </header>
+
+  <main class="content">
+
+    <!-- Invoices -->
+    <section class="card">
+      <h2 class="section-title">Invoices</h2>
+
+      <div class="row">
+        <input type="file" id="invoices-file" />
+        <button class="upload-btn" id="upload-invoices">Upload</button>
+        <button class="preview-btn" id="preview-invoices" disabled>Preview</button>
+      </div>
+
+      <div id="invoices-status" class="status"></div>
+
+      <table id="invoice-table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <!-- Payments -->
+    <section class="card">
+      <h2 class="section-title">Payments</h2>
+
+      <div class="row">
+        <input type="file" id="payments-file" />
+        <button class="upload-btn" id="upload-payments">Upload</button>
+        <button class="preview-btn" id="preview-payments" disabled>Preview</button>
+      </div>
+
+      <div id="payments-status" class="status"></div>
+
+      <table id="payment-table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- Chatbot root element -->
+  <div id="root"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="app.js"></script>
+
+  <!-- Chatbot Script -->
+  <script>
+    window.wxOConfiguration = {
+      orchestrationID: "20250515-0817-2486-8019-c55acc2aa9da_20250515-1932-4404-9062-f19a451351e9",
+      hostURL: "https://dl.watson-orchestrate.ibm.com",
+      rootElementID: "root",
+      chatOptions: {
+        agentId: "dd781fb8-db67-492b-b9bd-f328a311f45c"
+      }
+    };
+    setTimeout(function () {
+      const script = document.createElement("script");
+      script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+      script.addEventListener("load", function () {
+        wxoLoader.init();
+      });
+      document.head.appendChild(script);
+    }, 0);
+  </script>
+
+</body>
+</html>
