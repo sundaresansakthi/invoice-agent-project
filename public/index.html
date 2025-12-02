@@ -5,6 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Invoice Agent</title>
   <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    .file-name {
+      margin-top: 5px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      width: 100%;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    table {
+      width: 100%;
+      min-width: 800px;
+      border-collapse: collapse;
+      white-space: nowrap;
+    }
+
+    th, td {
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+  </style>
 </head>
 
 <body>
@@ -21,17 +49,20 @@
       <h2 class="section-title">Invoices</h2>
 
       <div class="row">
-        <input type="file" id="invoices-file" />
+        <input type="file" id="invoices-file" multiple/>
         <button class="upload-btn" id="upload-invoices">Upload</button>
         <button class="preview-btn" id="preview-invoices" disabled>Preview</button>
       </div>
 
+      <div id="invoices-file-name" class="file-name"></div>
       <div id="invoices-status" class="status"></div>
 
-      <table id="invoice-table">
-        <thead></thead>
-        <tbody></tbody>
-      </table>
+      <div class="table-wrapper">
+        <table id="invoice-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </section>
 
     <!-- Payments -->
@@ -44,12 +75,15 @@
         <button class="preview-btn" id="preview-payments" disabled>Preview</button>
       </div>
 
+      <div id="payments-file-name" class="file-name"></div>
       <div id="payments-status" class="status"></div>
 
-      <table id="payment-table">
-        <thead></thead>
-        <tbody></tbody>
-      </table>
+      <div class="table-wrapper">
+        <table id="payment-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </section>
 
   </main>
@@ -70,6 +104,7 @@
         agentId: "dd781fb8-db67-492b-b9bd-f328a311f45c"
       }
     };
+
     setTimeout(function () {
       const script = document.createElement("script");
       script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
